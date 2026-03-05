@@ -1,0 +1,62 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+14
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'  # Updated for modern Flutter + Firebase compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  window_manager: ^0.5.1
+  shared_preferences: ^2.5.4
+  cupertino_icons: ^1.0.8
+  mobile_scanner: ^5.1.0
+  file_picker: ^8.0.0
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  purchases_flutter: ^9.10.8
+
+  csv: ^6.0.0
+  path_provider: ^2.1.1
+  share_plus: ^10.0.0
+
+  # Firebase packages (working versions for authentication only)
+  firebase_core: ^3.8.0 
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0 
+  firebase_storage: ^12.3.6
+
+  flutter_form_builder: ^10.2.0
+  form_builder_validators: ^11.2.0
+  material_design_icons_flutter: ^7.0.7296
+  flutter_stripe: ^12.2.0
+  cloud_functions: ^5.6.2
+  http: ^1.6.0
+  url_launcher: ^6.3.0
+  image_picker: ^1.2.1
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+  
+  # 👇 CRITICAL FOR MODERN ANDROID 👇
+  # This ensures your icon fills the shape (circle/squircle) correctly
+  adaptive_icon_background: "#081F3A" # Matches your dark blue metallic background
+  adaptive_icon_foreground: "assets/icon.png"

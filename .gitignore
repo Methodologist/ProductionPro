@@ -1,0 +1,61 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains local workspace configuration
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will automatically add this to its gitignore
+# But we add it here just in case.
+/android/app/src/main/res/values/keys.xml
+
+# SECURITY: Never commit these files!
+# These contain your private database keys and project secrets.
+/android/app/google-services.json
+/android/app/google-services1.json
+/ios/Runner/GoogleService-Info.plist
+/macos/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+.env
+*.env
+.env.*
+
+# Root-level Firebase config (duplicate - should not be committed)
+/google-services.json
+
+# Cloud Functions secrets and local config
+functions/.secret.local
+functions/.env
+functions/.env.*
