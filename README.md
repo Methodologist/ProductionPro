@@ -14,6 +14,10 @@ A cross-platform inventory management and production tracking app built with Flu
 | macOS    | ✅      |
 | Web      | ✅      |
 
+<img width="409" height="864" alt="image" src="https://github.com/user-attachments/assets/ed2571c3-876f-4fcd-8598-51ab1b564698" />
+<img width="409" height="864" alt="image" src="https://github.com/user-attachments/assets/4c30d9b2-f50c-4cb4-bbc6-02fac795293b" />
+
+
 ## Features
 
 ### Authentication & Onboarding
